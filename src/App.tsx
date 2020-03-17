@@ -1,18 +1,14 @@
 import React from 'react';
-import { SafeAreaView, Text, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 
-import RootImport from '~/components/RootImport';
+import Routes from './routes';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
 
-      <SafeAreaView>
-        <Text>Hello, React Native!</Text>
-
-        <RootImport />
-      </SafeAreaView>
+      <Routes />
     </>
   );
 };
