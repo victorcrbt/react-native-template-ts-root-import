@@ -68,6 +68,7 @@ module.exports = {
         tsx: 'never',
         js: 'never',
         jsx: 'never',
+        json: 'always',
       },
     ],
   },
