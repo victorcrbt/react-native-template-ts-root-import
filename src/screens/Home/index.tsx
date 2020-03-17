@@ -1,15 +1,16 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
 
 import RootImport from '~/components/RootImport';
 
+import { Container, Title } from './styles';
+
 const Home = () => {
   return (
-    <SafeAreaView>
-      <Text>Hello, React Native!</Text>
+    <Container>
+      <Title>Hello, React Native!</Title>
 
       <RootImport />
-    </SafeAreaView>
+    </Container>
   );
 };
 
