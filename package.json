@@ -1,6 +1,6 @@
 {
-  "name": "react-native-template-ts-root-import",
-  "version": "1.0.0",
+  "name": "react-native-template-ts-rn-root-import",
+  "version": "1.0.1",
   "description": "Reusable React Native template that comes with TypeScript, ESLint, Stylelint, root-import, Styled Components and React Navigation pre configured.",
   "repository": "https://github.com/victorcrbt/react-native-template-ts-root-import",
   "author": "Victor Batalha <oi@victorbatalha.dev>",
